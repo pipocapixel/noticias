@@ -47,7 +47,7 @@ body.escurecer::before {
 .header-mobile nav {
     position: fixed;
     background-color: var(--almost-white);
-    right: 0;
+    right: -16rem;
     top: 0;
     height: 100vh;
     width: 16rem;
@@ -58,6 +58,7 @@ body.escurecer::before {
     padding: 1.5rem;
     gap: 1.5rem;
     display: none;
+    transition: 0.7s;
 }
 
 .header-mobile nav button {
